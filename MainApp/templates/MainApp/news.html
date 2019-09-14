@@ -1,0 +1,31 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block body %}
+<div class="container-fluid ">
+    <div class="jumbotron">
+        <div class="midsec">
+            <div class="row  ">
+                <div class="col-md-12 ">
+                    <div class="midsecDiv">
+                        <h3>News</h3>
+                        <h4>Title :  {{News.title}}</h4>
+                        <p>{{News.description}}</p>
+                        {% if News.image1 %}
+                        <img style="width=100x;" src="{{News.image1.url}}" alt="...">
+                        {% endif %}
+                        {% if News.image2 %}
+                        <img style="width=100x;" src="{{News.image2.url}}" alt="...">
+                        {% endif %}
+                        {% if News.image3 %}
+                        <img style="width=100x;" src="{{News.image3.url}}" alt="...">
+                        {% endif %}
+                        {% if News.image4 %}
+                        <img style="width=100x;" src="{{News.image4.url}}" alt="...">
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
