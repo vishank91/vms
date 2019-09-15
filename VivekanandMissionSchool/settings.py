@@ -55,7 +55,7 @@ ROOT_URLCONF = 'VivekanandMissionSchool.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['MainApp/templates/MainApp/'],
+        'DIRS': [os.path.join(BASE_DIR,'MainApp/templates/MainApp/')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
