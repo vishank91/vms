@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4e3102ff-7c26-4414-ad15-0fc9183e8671" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VivekanandMissionSchool/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/VivekanandMissionSchool/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainApp/static/MainApp/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/MainApp/static/MainApp/style2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainApp/templates/MainApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainApp/templates/MainApp/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
